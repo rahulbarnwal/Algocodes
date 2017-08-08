@@ -9,9 +9,9 @@ void permute(string s,int l,int r){
   else
     int i;
     for(i=l;i<=r;i++){
-      swap(s,a+l,a+i);
+      swap(s,s+l,s+i);
       permute(s,l+1,r);
-      swap(s,a+l,a+i);
+      swap(s,s+l,s+i);
      }
   }   
 
