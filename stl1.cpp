@@ -8,7 +8,7 @@
 
 
 /**
-When the program is using STL, it should #include the appropriate standard headers. For most containers the title of standard header matches the name of the container, and no extension is required. For example, if you are going to use stack, just add the following line at the beginning of your program:
+When the program is using STL, it should #include the appropriate standard headers. For most containers the title of standard header matches the name of the container, and no extension is required. For example, if you are going to use standardack, just add the following line at the beginning of your program:
 #include <stack>
 */
 using namespace std;

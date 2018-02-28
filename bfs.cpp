@@ -51,15 +51,19 @@ public:
 int main(){
 	
 	cout<<"Enter nmbr of vertex";
-	int n,s;
+	int n,s,i;
+	int v1,v2,edges;
 	cin>>n;
 	Graph g=Graph(n);
-	g.addEdge(0, 1);
-    g.addEdge(0, 2);
-    g.addEdge(1, 2);
-    g.addEdge(2, 0);
-    g.addEdge(2, 3);
-    g.addEdge(3, 3);
+	cout<<"Enter numbr of edges";
+	cin>>edges;
+	for(i=0;i<edges;i++){
+		cout<<"v1=";
+		cin>>v1;
+		cout<<"v2=";
+		cin>>v2;
+		g.addEdge(v1,v2);
+	}
 	cin>>s;
 	g.BFS(s);
 
