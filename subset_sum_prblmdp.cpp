@@ -18,7 +18,7 @@ bool Is_subset_sum(int* S,int pos,int sum){
 
 
 
-
+	
 }
 
 int main(){
